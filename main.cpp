@@ -26,7 +26,7 @@ void citire_gramatica (Gramatica_regulata **A, int &nr_productii)
 
 void afisare_gramatica(Gramatica_regulata *A,int nr_productii)
 {
-    cout<<"Simbolul * este destinat lui lambda.\n";
+     cout<<"Simbolul '*' este destinat lui lambda, iar '!' corespunde productiilor de tipul S->a!.\n";
     cout<<"Gramatica:\n";
     for (int i=0; i<nr_productii; i++)
     {
