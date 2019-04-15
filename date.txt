@@ -1,0 +1,5 @@
+4
+S a S
+S b A
+A * !
+A c A
